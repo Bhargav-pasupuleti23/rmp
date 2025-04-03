@@ -1,0 +1,97 @@
+@media (max-width:500px){
+
+    .cont-1{
+        background: url(./bg-2.jpg);
+        background-size: cover;
+        object-fit: fill;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .subcont-1{
+        background-color: transparent;
+        height: 80%;
+        backdrop-filter: blur(10px);
+        padding: 5px;
+        
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        width: 90%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 40px ;
+    }
+    .p1{
+        
+        font-size: 30px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .heading>img{
+        height: 30px;
+        margin-left: 9px;
+    }
+    .inputfield{
+        height: 20vh;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    input[type=number]{
+        border: none;
+        width: 250px;
+        color:black;
+        background: transparent;
+        outline: none;
+        
+        font-size: 18px;
+        border-bottom: 2px solid white;
+        animation: spred 3s ease forwards;
+    }
+    @keyframes spred{
+        from{
+            width: 0;
+        }
+        to{
+            width:250px;
+        }
+    }
+    
+    .p2{
+        font-weight: 600;
+        color:black;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+    .checking{
+        padding: 5px;
+    }
+    .p3{
+        color:rgb(141, 210, 238);
+        font-weight: 600;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 10px;
+       
+       
+    }
+    .checkitems{
+         color: greenyellow;  
+         font-weight: 400; 
+    }
+    .result p{
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+}
